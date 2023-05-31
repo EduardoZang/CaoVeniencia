@@ -1,0 +1,42 @@
+<!-- Página desenvolvida por Eduardo Zang
+P.O -> Eduardo Zang
+Scrum Master -> Miguel Schneider
+Revisado por: Eduardo Zang-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Financeiro</title>
+  <link rel="icon" type="imagem/png" href="/Imagens/LogoPet.png" />
+  <link rel="stylesheet" href="/CSS/TelasFormulario.css">
+  <link rel="stylesheet" href="/CSS/Financeiro.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+  <div class="page">
+    <div class="formLogin">
+      <h1>Gráfico de Rendimento Mensal</h1>
+      <div class="container">
+        <canvas id="myChart"></canvas>
+        <canvas id="ctxBar"></canvas>
+        <form id="form">
+          <label for="despesas">Despesas:</label>
+          <input type="text" id="despesas" name="despesas">
+          <label for="receitas">Receitas:</label>
+          <input type="text" id="receitas" name="receitas">
+          <button type="submit">Atualizar</button>
+        </form>
+       
+      </div>
+       <a class="btn-button"href="/index.html">Voltar</a>
+    </div>
+  </div>
+
+  <script src="/JS/Graficos_Relatorio.js"></script>
+
+</body>
+
+</html>

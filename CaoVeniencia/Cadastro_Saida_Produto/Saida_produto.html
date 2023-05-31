@@ -1,0 +1,52 @@
+<!-- Página desenvolvida por Miguel Schneider
+P.O -> Eduardo Zang
+Scrum Master -> Miguel Schneider
+Revisado por: Eduardo Zang-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="imagem/png" href="/Imagens/LogoPet.png" />
+  <link rel="stylesheet" href="/CSS/Cadastramento_produto.css" />
+  <link rel="stylesheet" href="/CSS/TelasFormulario.css">
+  <title>Saída de Produto</title>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <form action="Mensagem_Saida_Produto.html">
+      <div class="form-group">
+        <h1>Saída de Produto</h1>
+        <select id="nome-produto" name="nome-produto">
+          <option value="none">Kit de petiscos para cães</option>
+          <option value="0">Ração Premier cães adultos 1kg</option>
+          <option value="1">Shampoo Clorexidina para cães e gatos 300ml</option>
+          <option value="2">Ração Whiskas sabor peixe (Gatos)</option>
+          <option value="3">Comedouro de 500g</option>
+          <option value="4">Arranhador escalável</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="lote">Lote:</label>
+        <input type="text" id="lote" name="lote" value = "12023879" />
+      </div>
+      <div class="form-group">
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" />
+      </div>
+      <div class="form-group">
+        <label for="motivo">Motivo:</label>
+        <textarea id="motivo" name="motivo"></textarea>
+      </div>
+      <input type="submit" value="Remover" />
+      <input type="reset" value="Limpar" />
+      <a href="/Cadastro_Saida_Produto/Exibir_Produtos.html">Voltar</a>
+    </form>
+  </div>
+</body>
+
+</html>

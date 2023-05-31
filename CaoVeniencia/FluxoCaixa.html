@@ -1,0 +1,102 @@
+<!-- Página desenvolvida por Julia Sampaio
+P.O -> Eduardo Zang
+Scrum Master -> Miguel Schneider
+Revisado por: Eduardo Zang-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fluxo de Caixa</title>
+  <link rel="icon" type="imagem/png" href="/Imagens/LogoPet.png" />
+   <link rel="stylesheet" href="/CSS/TelasFormulario.css">
+  <link rel="stylesheet" href="/CSS/FluxoCaixa.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <div class="formLogin">
+
+      <p id="demo"></p>
+
+      <h2>Fluxo de Caixa</h2>
+      <table>
+        <tr>
+          <th>CUSTOS/DESPESAS:</th>
+          <th>VALOR:</th>
+        </tr>
+        <tr>
+          <td>ALUGUEL</td>
+          <td>R$ 8.000,00</td>
+        </tr>
+        <tr>
+          <td>INTERNET</td>
+          <td>R$ 100,00</td>
+        </tr>
+        <tr>
+          <td>IPTU</td>
+          <td>R$ 250,00</td>
+        </tr>
+        <tr>
+          <td>ÁGUA</td>
+          <td>R$ 800,00</td>
+        </tr>
+        <tr>
+          <td>LUZ</td>
+          <td>R$ 600</td>
+        </tr>
+        <tr>
+          <td>MANUTENÇÃO</td>
+          <td>R$ 200,00</td>
+        </tr>
+        <tr>
+          <td>FUNCIONÁRIOS</td>
+          <td>R$ 13.791,00</td>
+        </tr>
+        <tr>
+          <td>MODA CANINA</td>
+          <td>R$ 1.900,00</td>
+        </tr>
+        <tr>
+          <td>ACESSÓRIOS</td>
+          <td>R$ 3.150,00</td>
+        </tr>
+        <tr>
+          <td>BRINQUEDOS</td>
+          <td>R$ 3.150,00</td>
+        </tr>
+        <tr>
+          <td>PRODUTOS DE BANHO</td>
+          <td>R$ 2.000,00</td>
+        </tr>
+        <tr>
+          <td>SAÚDE ANIMAL</td>
+          <td>R$ 2.000,00</td>
+        </tr>
+        <tr>
+          <td>RAÇÃO</td>
+          <td>R$ 1.200,00</td>
+        </tr>
+        <tr>
+          <td>MÓVEIS/EQUIPAMENTOS</td>
+          <td>R$ 2.009,10</td>
+        </tr>
+        <tr>
+          <td><b>TOTAL - DESPESAS</b></td>
+          <td><b>R$ 39.150,10</b></td>
+        </tr>
+      </table>
+      <br>
+      <canvas id="chart"></canvas>
+      <br>
+      <div class="button-container">
+      <a href="/index.html"><input class="button_agendar" type="button" value="Voltar"></a>
+      <a href="FluxoCaixa.html"><input class="button_agendar" type="button" value="Imprimir"></a>
+      <a href="FluxoCaixa.html"><input class="button_agendar" type="button" value="E-mail"></a>
+      </div>
+    </div>
+  </div>
+  <script src="/JS/Grafico_FluxoCaixa.js"></script>
+</body>
+
+</html>

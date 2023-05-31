@@ -1,0 +1,94 @@
+/* Estilização desenvolvida por: Julia Sampaio */
+
+body {
+      background-color: #480ca8;
+    }
+
+    .feedb {
+      div {
+        width: 100px;
+        height: 100px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+        display: inline-block;
+        padding: 15px;
+      }
+    }
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      font-weight: 500;
+      font-size: 2.3em;
+      color: white;
+    }
+
+    .label {
+      color: black;
+      text-align: center;
+      margin: 10px;
+    }
+
+    p {
+      display: inline-block;
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .feedb {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 30px;
+      margin-top: 100px;
+    }
+
+    .feedb label {
+      display: block;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .marg {
+      display: inline-block;
+      flex-direction: column;
+      background-color: #fff;
+      border-radius: 7px;
+      padding: 40px;
+      box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+      gap: 5px border-width: 20px 5px;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .btn-button {
+      background-color: #f72585;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 800;
+      border: none !important;
+      transition: all linear 160ms;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 15px;
+      padding: 20px;
+      display: inline-block;
+      margin-left: 42.6%;
+
+    }
+
+    .btn-button:hover {
+      transform: scale(1.05);
+      background-color: #ff0676;
+
+    }
+
+    @media (max-width: 768px) {
+      .btn-button {
+        margin-left: 35%;
+        padding: 25px;
+      }
+    }

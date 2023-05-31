@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="imagem/png" href="/Imagens/LogoPet.png" />
+  <link rel="stylesheet" href="/CSS/TelasFormulario.css">
+  <link rel="stylesheet" href="/CSS/TaxiDog.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Táxi Dog</title>
+</head>
+<body>
+  <div class="page">
+    <div class="formLogin">
+      <h2>Consulta de Frete:</h2>
+      <input type="text" id="cepInput" placeholder="Digite o CEP" oninput="checkCEPInput()">
+      <input type="submit" value="Buscar" onclick="buscarCEP()" disabled id="buscarButton" class="btn-button">
+      <a href="/index.html">Voltar</a>
+      <div id="result"></div>
+    </div>
+
+    <!-- Modal de Erro -->
+    <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="errorModalLabel">Erro</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="errorMessage"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="/JS/Frete.js"></script>
+</body>
+</html>

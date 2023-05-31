@@ -1,0 +1,98 @@
+/* Estilização desenvolvida por: Julia Sampaio */
+
+body {
+      background-color: #480ca8;
+    }
+
+    .feedb {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 15px;
+      margin-top: 25px;
+      padding: 0;
+    }
+
+    .hist div {
+      width: 85%;
+      height: 100px;
+      border-width: 2px;
+      border-color: black;
+      border-style: solid;
+      display: inline-block;
+      padding: 25px;
+    }
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      font-weight: 500;
+      font-size: 2.3em;
+      color: white;
+
+    }
+
+    .hist {
+      color: black;
+      text-align: center;
+      margin: 25px;
+    }
+  p{
+    font-family: Arial;
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 25px;
+    display: inline-block;
+  }
+
+    .hist {
+      border: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 100px;
+
+    }
+
+    .marg {
+      display: flex;
+      width: max-content;
+      flex-direction: column;
+      background-color: #fff;
+      border-radius: 7px;
+      padding: 5px;
+      box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+      gap: 5px;
+    }
+
+    .btn-button {
+      background-color: #f72585;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 800;
+      border: none !important;
+      transition: all linear 160ms;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 15px;
+      padding: 20px;
+      display: inline-block;
+      margin-left: center;
+
+    }
+
+    .btn-button:hover {
+      transform: scale(1.05);
+      background-color: #ff0676;
+    }
+    footer {
+  background-color: #cf9fe9;
+  padding: 12px;
+    width: 100%;
+  margin-bottom: 10%;
+  text-align: center;
+  color: white;
+  position: absolute;
+}

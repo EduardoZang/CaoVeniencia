@@ -1,0 +1,144 @@
+<!-- Página desenvolvida por Ana Caroline
+P.O -> Eduardo Zang
+Scrum Master -> Miguel Schneider
+Revisado por: Eduardo Zang-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CãoVeniência</title>
+  <link rel="icon" type="imagem/png" href="/Imagens/LogoPet.png" />
+  <link rel="stylesheet" href="/CSS/Menu.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">CãoVeniência</div>
+    <img src="Imagens/LogoPet.png" class="img_logo" alt="Logo da empresa">
+
+    <form action=" " method="post" class="buscar">
+      <label for="busca">Buscar</label>
+
+      <div class="container">
+        <input type="search" id="busca" name="q">
+        <button type="submit">OK</button>
+      </div>
+
+    </form>
+
+    <!-- NAVEGAÇÃO MENU -->
+    <ul class="nav-links">
+      <!-- CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVEGAÇÃO MENUS -->
+
+      <div class="menu">
+        <li class="services">
+          <a href="/">Minha Conta</a>
+          <ul class="dropdown">
+            <li><a href="Telas_Login/Login_de_Clientes.html">Entrar</a></li>
+            <li><a href="/Telas_Login/Cadastro_de_Clientes.html">Cadastrar</a></li>
+          </ul>
+        </li>
+          <li class="services">
+          <a href="/">Funcionário</a>
+          <ul class="dropdown">
+            <li><a href="/Relatorio_Mensal.html">Financeiro</a></li>
+            <li><a href="/FluxoCaixa.html">Relatório</a></li>
+            <li><a href="/Cadastro_Saida_Produto/Exibir_Produtos.html">Produtos</a></li>
+          </ul>
+        </li>
+         <li class="services">
+          <a href="/">Serviços</a>
+          <!-- MENU SUSPENSO OU DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/Agendamento/Agendamento.html">Agendar banho/tosa</a></li>
+            <li><a href="/Cadastro_de_Animais/Exibir_Animais.html">Pets</a></li>
+            <li><a href="/Compras/Loja.html">Comprar produtos</a></li>
+            <li><a href="/TaxiDog.html">Táxi Dog</a></li>
+          </ul>
+        </li>
+
+        <li class="services">
+          <a href="/">Contato</a>
+          <!-- MENU SUSPENSO OU DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/Feedback/FeedbackClientes.html">Informar um feedback</a></li>
+            <li><a href="/Telas_Login/Informa_erro.html">Relatar um erro</a></li>
+          </ul>
+        </li>
+        <li><a href="Historia.html">Nossa história</a></li>
+      </div>
+    </ul>
+
+  </nav>
+
+
+  <!-- Carrossel de imagens -->
+  <div class="slideshow-container">
+
+    <!-- Definindo o conteúdo do Carrossel -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="Imagens/Imagens_menu/img1.jpg" class="carrossel_img">
+      <div class="text">Chocolate</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="Imagens/Imagens_menu/img2.jpg" class="carrossel_img">
+      <div class="text">Caramelo</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="Imagens/Imagens_menu/img3.png" class="carrossel_img">
+      <div class="text">Luke</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <img src="Imagens/Imagens_menu/img4.jpg" class="carrossel_img">
+      <div class="text">Madalena</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img src="Imagens/Imagens_menu/img5.jpg" class="carrossel_img">
+      <div class="text">Ozzy</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="Imagens/Imagens_menu/img6.jpg" class="carrossel_img">
+      <div class="text">Simba</div>
+    </div>
+
+    <!-- Definindo os botões do Carrossel -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- Definindo os slides passando -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+  
+
+  <script src="/JS/Carrossel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!-- Página desenvolvida por Miguel Schneider
+P.O -> Eduardo Zang
+Scrum Master -> Miguel Schneider
+Revisado por: Eduardo Zang-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Editar Produto</title>
+  <link rel="stylesheet" href="/CSS/TelasFormulario.css">
+  <link rel="stylesheet" href="/CSS/Cadastramento_produto.css">
+  <link rel="icon" type="imagem/png" href="/Imagens/LogoPet.png" />
+</head>
+
+<body>
+  <div class="formLogin-local">
+
+    <form action="Mensagem_Edita_Produto.html">
+      <h1>Editar produto</h1>
+      <select id="nome-produto" name="nome-produto">
+        <option value="none">Kit de petiscos para cães</option>
+        <option value="0">Ração Premier cães adultos 1kg</option>
+        <option value="1">Shampoo Clorexidina para cães e gatos 300ml</option>
+        <option value="2">Ração Whiskas sabor peixe (Gatos)</option>
+        <option value="3">Comedouro de 500g</option>
+        <option value="4">Arranhador escalável</option>
+      </select>
+
+      <label for="nome">Nome do Produto:</label>
+      <input type="text" id="nome" name="nome" value = "Kit de petiscos para cães" required>
+
+      <label for="fabricante">Fabricante:</label>
+      <input type="text" id="fabricante" name="fabricante" value = "Pedigree" required>
+
+      <label for="lote">Lote:</label>
+      <input type="text" id="lote" name="lote" value = "12023879" required>
+
+      <label for="data-fabricacao">Data de Fabricação:</label>
+      <input type="text" id="data-fabricacao" name="data-fabricacao" value = "09/05/2023" required>
+
+      <label for="data-validade">Data de Validade:</label>
+      <input type="text" id="data-validade" name="data-validade" value = "09/12/2023" required>
+
+      <label for="codigo-interno">Código Interno:</label>
+      <input type="text" id="codigo-interno" name="codigo-interno" value = "2023" required>
+
+      <label for="observacoes">Observações:</label>
+      <textarea id="observacoes" name="observacoes"></textarea>
+
+      <input type="submit" value="Alterar">
+      <input type="reset" value="Limpar Campos">
+      <a href="/Cadastro_Saida_Produto/Exibir_Produtos.html">Voltar</a>
+    </form>
+
+  </div>
+
+
+  </form>
+
+</body>
+
+</html>

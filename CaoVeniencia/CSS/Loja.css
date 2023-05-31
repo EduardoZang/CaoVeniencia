@@ -1,0 +1,48 @@
+/* Estilização desenvolvida por: Luis Tavares */
+
+h1 {
+      margin-left: 35%;
+    }
+
+    .button_agendar {
+    background-color: #f72585;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 40%;
+    }
+    .button_agendar-car{
+    background-color: #f72585;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 0;
+    margin-left: 1px;
+    }
+
+    .button_agendar:hover {
+      transform: scale(1.05);
+      background-color: #ff0676;
+    }
+
+    .button_agendar-car:hover {
+      transform: scale(1.05);
+      background-color: #ff0676;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin-left: 1px;
+      padding: 5px;
+    }

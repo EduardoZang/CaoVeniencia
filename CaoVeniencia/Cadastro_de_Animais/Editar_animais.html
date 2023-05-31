@@ -1,0 +1,59 @@
+<!-- Página desenvolvida por Miguel Schneider
+P.O -> Eduardo Zang
+Scrum Master -> Miguel Schneider
+Revisado por: Eduardo Zang-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Editar animal</title>
+  <link rel="stylesheet" href="/CSS/TelasFormulario.css">
+  <link rel="stylesheet" href="/CSS/CadastroAnimais.css">
+  <link rel="icon" type="imagem/png" href="/Imagens/LogoPet.png" />
+
+</head>
+
+<body>
+
+  <div class="page">
+    <form class="formLogin-local" action = "/Cadastro_de_Animais/Exibir_Animais.html">
+      <h1>Editar Animal</h1>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" value="Cloe">
+
+      <label for="especie">Espécie:</label>
+      <input type="text" id="especie" name="especie"value="Gato">
+
+      <label for="raca">Raça:</label>
+      <input type="text" id="raca" name="raca"value="Siamês">
+
+      <label for="porte">Porte:</label>
+      <input type="text" id="porte" name="porte"value="Pequeno">
+
+      <label for="peso">Peso:</label>
+      <input type="text" id="peso" name="peso"value="5kg">
+
+      <label for="caderneta">Caderneta de Vacinação:</label>
+      <input type="checkbox" id="caderneta" name="caderneta"checked>
+
+      <label for="data_nasc">Data de Nascimento:</label>
+      <input type="text" id="data_nasc" name="data_nasc"value="05/01/2022">
+
+      <label for="cor_pelagem">Cor da Pelagem:</label>
+      <input type="text" id="cor_pelagem" name="cor_pelagem"value="Escura/Marrom">
+
+      <label for="observacoes">Observações:</label>
+      <textarea id="observacoes" name="observacoes"></textarea>
+      <div>
+        <input type="submit" value="Salvar" class="btn-animals">
+        <input type="reset" value="Limpar" class="btn-animals">
+      </div>
+      <a href="Exibir_Animais.html">Voltar</a>
+    </form>
+
+  </div>
+
+</body>
+
+</html>
